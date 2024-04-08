@@ -422,7 +422,8 @@ section{
     background-size: contain;
   }
   .image{
-    height: 100%;
+    height: 55%;
+    margin: 10px 0;
   }
 }
 
@@ -463,7 +464,7 @@ section{
     align-items: center;
     height: unset;
     gap: 20px;
-    margin-top: 5px;
+    margin: 5px 0;
   }
   .contact h3, .contact p{
     border: none;
