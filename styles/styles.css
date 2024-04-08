@@ -398,6 +398,7 @@ section{
     padding: 5px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .hero:nth-child(1){
    font-size: 12px;
@@ -407,6 +408,7 @@ section{
    width: 100%;
    justify-content: flex-end;
    color: #000;
+   overflow: hidden;
 }
 /* Hero page image backgrounds */
 @media screen and (width: 1800px){
@@ -419,27 +421,32 @@ section{
   .image{
     background-size: contain;
   }
+  .image{
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 768px){
   .introduction{
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 0 8px 0 8px;
-    backdrop-filter: blur(6px);
+    padding: 10px 0 12px 0;
   }
   .container{
     width: 98%;
   }
   #Home .heropage{
+    display: flex;
+    flex-direction: column;
     width: 98%;
     grid-template-columns: unset;
-    grid-template-rows: 1fr 1fr;
+    
   }
   .occupation{
-    justify-content: unset;
     height: unset;
+    justify-content: unset;
     padding-top: 10px;
-    padding: 5px;
+    padding: 0 5px;
   }
   .occupation .repo{
     width: 100%;
@@ -449,10 +456,14 @@ section{
     font-size: 26px;
   }
   .heropage .contact{
+    all: unset;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: unset;
+    gap: 20px;
+    margin-top: 5px;
   }
   .contact h3, .contact p{
     border: none;
