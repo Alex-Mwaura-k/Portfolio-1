@@ -390,7 +390,7 @@ section{
 .image h2{
     /* font-size: clamp(40px, 10vw, 100px); */
     line-height: 1;
-    color: #e2e2e2;
+    color: #183c414d;
     z-index: 2;
     letter-spacing:5px;
     filter: drop-shadow(0 2px 5px);
@@ -416,13 +416,16 @@ section{
   }
 }
 @media screen and (max-width: 768px) {
+  #Home{
+    height: 98vh;
+  }
   .introduction,
   .image{
     background-size: contain;
   }
   .image{
-    height: 55%;
-    margin: 10px 0;
+    height: 90%;
+    margin: 10px 0 0 0;
   }
 }
 
