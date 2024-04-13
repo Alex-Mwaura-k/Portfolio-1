@@ -68,21 +68,7 @@ if (curHr >= 0 && curHr < 6) {
 //Auto type intro
 var typed = new Typed('.element', {
   strings: ["Front-End Developer .", "Photographer .", "Graphic Designer ."],
-  typeSpeed: 80,
+  typeSpeed: 120,
   backSpeed: 50,
   loop: true
-});
-// blog js 
-var swiper = new Swiper('.blog-slider', {
-  spaceBetween: 30,
-  effect: 'fade',
-  loop: true,
-  mousewheel: {
-    invert: false,
-  },
-  // autoHeight: true,
-  pagination: {
-    el: '.blog-slider__pagination',
-    clickable: true,
-  }
 });
