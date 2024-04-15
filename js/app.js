@@ -76,7 +76,7 @@ var typed = new Typed('.element', {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 43,
+      "value": 23,
       "density": {
         "enable": true,
         "value_area": 1420.4657549380909
@@ -101,7 +101,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.3,
       "random": false,
       "anim": {
         "enable": false,

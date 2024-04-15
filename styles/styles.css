@@ -429,7 +429,13 @@ section{
    overflow: hidden;
 }
 /* Hero page image backgrounds */
+@media screen and (min-width: 1800px){
+  #Home{
+    height: 900px;
+  }
+}
 @media screen and (width: 1800px){
+
   .introduction{
     background-size: contain;
   }
